@@ -1,0 +1,30 @@
+create table libro;
+id_libro INT (45) ;
+id_autor varchar (40);
+ISBN  varchar (45);
+titulo char (35);
+editorial varchar (30) ;
+paginas varchar (45) ;
+
+create table usuario; 
+ id_usuario int (45);
+ matricula varchar (45);
+ nombre char (35);
+ apellido_paterno char (45);
+ apellido materno varchar (45);
+ cuatrimestre char (45);
+
+create table Autor;
+id_autor INT (45);
+nombre char (45);
+apellido_paterno char (45);
+apellido_materno char (45);
+ 
+ create table prestamo;
+  id_prestamo int (45);
+  fecha_prestamo varchar (45);
+  fecha_devolucion varchar (45);
+  id usuario varchar (45);
+  id libro char (45);
+  
+ 
